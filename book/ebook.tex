@@ -1,0 +1,211 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% eBook 
+% LaTeX Template
+% Version 1.0 (29/12/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Luis Cobo (luiscobogutierrez@gmail.com) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONFIGURATIONS AND INFORMATION
+%----------------------------------------------------------------------------------------
+
+\documentclass[14pt]{memoir} % Font size
+
+
+
+%----------------------------------------------------------------------------------------
+%	GRAYSCALE EM TODAS AS FIGURAS
+% Habilita o modo impressão em tons de cinza, não todo logicmente
+% Mas a maioria das coisas, as figuras não, isto é para mandar à editora em GRAY SCALE
+%----------------------------------------------------------------------------------------
+
+%%% \def\EnableGrayScale{1}
+
+%----------------------------------------------------------------------------------------
+%	Muda La direccion raiz
+%----------------------------------------------------------------------------------------
+\def \SourceRootPath{.}
+
+
+%----------------------------------------------------------------------------------------
+%	DATOS DEL LIBRO
+%----------------------------------------------------------------------------------------
+\newcommand{\mytitle}[0]{As aventuras de Aulicha}
+\newcommand{\mysubtitle}[0]{Cr{\^o}nicas nos andes}
+\newcommand{\myauthor}[0]{Fernando Pujaico Rivera}
+\newcommand{\imprimiredition}{Primeira Edi\c{c}\~{a}o} % Book edition
+%%% las aventuras de aulicha -crónicas en los andes (Mariano Pujaico Rivera)
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%   Tamanho da folha
+%----------------------------------------------------------------------------------------
+\def \imprimirpagewidthcm{14.8}  %% A5 
+\def \imprimirpageheightcm{21.0} %% A5
+%% \def \imprimirpagewidthcm{21.0}  %% A4 
+%% \def \imprimirpageheightcm{29.7} %% A4
+
+
+%----------------------------------------------------------------------------------------
+%   DADOS ficha catalográfica
+%----------------------------------------------------------------------------------------
+\def \myauthorname{Fernando}
+\def \myauthorlastname{Pujaico Rivera}
+\def \myauthorborn{1982}
+\def \imprimirlocal{Lavras}%cidade obrigatorio
+\def \imprimiryear{2020}
+\newcommand{\imprimirdata}[0]{agosto de \imprimiryear}
+\def \imprimirtipotrabalho{Inclui Bibliografia}
+\def \imprimircuttersanborn{\textcolor{red}{P979X}} %% Nome+titulo %% https://www.cuttersonline.com/app/generator/?q=Pujaico&ref=sanborn&add=
+\newcommand{\imprimirpapersize}[0]{{\imprimirpagewidthcm}x{\imprimirpageheightcm}cm}%%{21x30cm}
+\def \imprimirCDD{028.5}        %% 028.5 - conto infantil                  %% https://books.google.com.br/books?id=G2xHIl0suOcC&pg=PP46&dq=conto+infantil+cdd&hl=pt-BR&sa=X&ved=2ahUKEwiVq_un6ZnrAhWgILkGHSBeCQkQ6AEwBHoECAEQAg#v=onepage&q=conto%20infantil%20cdd&f=false
+                                                                           %% https://books.google.com.br/books?id=bAxcCgAAQBAJ&pg=PA2&dq=conto+infantil+cdd&hl=pt-BR&sa=X&ved=2ahUKEwiVq_un6ZnrAhWgILkGHSBeCQkQ6AEwAnoECAUQAg#v=onepage&q=conto%20infantil%20cdd&f=false
+                                %% 808 - Coleções de Literatura e Retórica %% http://bilica.org.br/sistema/modulos/acervo/cdd.php?codigo=800#800
+                                %% 808.899282 - LITERATURA INFANTIL        %% http://www.biblivre.org.br/forum/viewtopic.php?f=87&t=3097
+                                                                           %% https://www.oclc.org/content/dam/oclc/dewey/updates/ddc23/808.8Manual_20130329_DDC%2023.pdf
+                                %% 898 - Nativas das América do Sul        %% http://bilica.org.br/sistema/modulos/acervo/cdd.php?codigo=890#800
+\def \imprimirCDU{087.5}        %% Publicações para jovens e infantis      %% https://bibliotextos.files.wordpress.com/2014/07/cdu-parte-i.pdf
+\newcommand{\imprimirisbn}[0]{\textcolor{red}{XXX-XX-XX-XXXXX-X}}
+\def \imprimireditora{Edi\c{c}\~{a}o Independente}%%{Autopublica\c{c}\~{a}o}%%{Edi\c{c}\~{a}o Independente}
+\def \palavraschavea{Conto infantil}
+\def \palavraschaveb{Conto peruano}
+\def \palavraschavec{Literatura Latino-Americana}
+\def \palavraschavesInglesa{children's tale}
+\def \palavraschavesInglesb{Peruvian tale}
+\def \palavraschavesInglesc{Latin American Literature}
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	XCOLOR
+%----------------------------------------------------------------------------------------
+\usepackage[dvipsnames*,svgnames]{xcolor}
+
+\definecolor{colorlowgray}{RGB}{240,240,240}
+
+%----------------------------------------------------------------------------------------
+%	COLOR
+%----------------------------------------------------------------------------------------
+\usepackage{color}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/structure} % el estilo visual do livro
+\input{\SourceRootPath/formato-macros} % las macros compuestas usadas para la escrita
+%----------------------------------------------------------------------------------------
+
+\hyphenation{zan-dor}
+\hyphenation{zo-rra}
+\hyphenation{A-ya-cu-cho}
+
+%-----------------------------------------------------------------------------------------
+% evitar linhas órfãs e viúvas
+%\clubpenalty=100000 
+%\widowpenalty=100000 
+%-----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+% Agrega marca de agua a cada pagina do livro
+%----------------------------------------------------------------------------------------
+\begin{comment}
+\usepackage{draftwatermark}
+\SetWatermarkText{Preview-Preview}
+\SetWatermarkColor[gray]{0.9}
+\SetWatermarkScale{1}
+\end{comment}
+%-----------------------------------------------------------------------------------------
+
+\title{\mytitle} % Book title
+\author{\myauthor} % Author
+
+
+%----------------------------------------------------------------------------------------
+%	My macros
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/mymacros}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/preliminares/titlepage}
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/preliminares/copyright}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATORIA
+%----------------------------------------------------------------------------------------
+%\input{\SourceRootPath/preliminares/dedicatoria} 
+
+%----------------------------------------------------------------------------------------
+%	Acknowledgements
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/preliminares/acknowledgements} 
+
+%----------------------------------------------------------------------------------------
+%	PREFACIO
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/preliminares/prefacio}
+
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+\cleardoublepage
+\newpage
+\tableofcontents % Prints the table of contents
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION SECTION
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/chapters/intro/intro}
+
+%----------------------------------------------------------------------------------------
+%	BOOK PART
+%----------------------------------------------------------------------------------------
+
+\part{Meu amigo Zandor}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER ONE
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/chapters/cap-zorra/cap-zorra}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER TWO
+%----------------------------------------------------------------------------------------
+
+\input{\SourceRootPath/chapters/cap-zandor/cap-zandor}
+
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	COLOFÃO
+%----------------------------------------------------------------------------------------
+\input{\SourceRootPath/preliminares/colofao}
+%----------------------------------------------------------------------------------------
+
+\end{document}
