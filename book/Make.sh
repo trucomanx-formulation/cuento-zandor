@@ -10,4 +10,7 @@ rm -f ebook.out
 rm -f ebook.synctex.gz
 rm -f ebook.toc
 rm -f ebook.log
+rm -f *-converted-to.pdf
+rm -f */*-converted-to.pdf
+rm -f */*/*-converted-to.pdf
 
