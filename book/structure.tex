@@ -123,6 +123,15 @@
 \renewcommand{\beforepartskip}{\null\vskip.618\textheight} % Whitespace above the part heading
 
 %----------------------------------------------------------------------------------------
+%% background of part
+\makeatletter
+% define a user command to choose the image
+% this command also creates an internal command to insert the image
+\newcommand{\partimage}[2][]{\gdef\@partimage{\ThisCenterWallPaper{#1}{#2} }}
+\renewcommand{\printparttitle}[1]{\parttitlefont #1\vfil\@partimage\vfil}
+\makeatother
+
+%----------------------------------------------------------------------------------------
 %	CHAPTER FORMAT
 %----------------------------------------------------------------------------------------
 
@@ -185,6 +194,25 @@
 \renewenvironment{quote}
 {\list{}{\em\leftmargin=1em}\item[]}{\endlist\relax}
 
+
+%----------------------------------------------------------------------------------------
+%	CONTENTS TABLE
+%----------------------------------------------------------------------------------------
+% \usepackage{tocloft}
+% \cftsetindents{chapter}{2em}{2em}
+%----------------------------------------------------------------------------------------
+\usepackage{titletoc}
+% %% \dottedcontents{<section>}[<left>]{<above-code>}{<label width>}{<leader width>}
+% \dottedcontents{part}[3em]{\bfseries }{2.9em}{1pc}
+\dottedcontents{chapter}[2.9em]{\bfseries}{2.9em}{1pc}
+
+%----------------------------------------------------------------------------------------
+%	NO reiniciar la cuenta de paginas en \mainmatter
+%----------------------------------------------------------------------------------------
+\makeatletter
+\def\pagenumbering#1{%
+  \gdef\thepage{\csname @#1\endcsname \c@page}}
+\makeatother
 %----------------------------------------------------------------------------------------
 %	MISCELLANEOUS DOCUMENT SPECIFICATIONS
 %----------------------------------------------------------------------------------------
