@@ -8,6 +8,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -16,7 +17,7 @@
    version="1.1"
    id="SVGRoot"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="capa.svg"
+   sodipodi:docname="capa5.svg"
    inkscape:export-filename="/home/fernando/Proyectos/LIBROS/FORMULATION/CUENTO-ZANDOR/cuento-zandor/book/cover/capa.svg.png"
    inkscape:export-xdpi="399.98587"
    inkscape:export-ydpi="399.98587">
@@ -27,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.93340812"
-     inkscape:cx="278.25456"
-     inkscape:cy="384.42231"
+     inkscape:zoom="0.33000961"
+     inkscape:cx="-917.84067"
+     inkscape:cy="661.85433"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,12 +71,129 @@
        orientation="1,0"
        id="guide2829"
        inkscape:locked="false" />
+    <sodipodi:guide
+       position="-69.708439,185.4875"
+       orientation="0,1"
+       id="guide1850"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
      id="defs831">
     <linearGradient
-       id="linearGradient2839"
+       id="linearGradient1777"
        osb:paint="solid">
+      <stop
+         style="stop-color:#d7efb3;stop-opacity:1;"
+         offset="0"
+         id="stop1775" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1771"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#9bb369;stop-opacity:1;"
+         offset="0"
+         id="stop1769" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1765"
+       osb:paint="solid"
+       gradientTransform="matrix(1,0,0,1.160719,0,-47.733545)">
+      <stop
+         style="stop-color:#576d2c;stop-opacity:1;"
+         offset="0"
+         id="stop1763" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1748"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#891c21;stop-opacity:1;"
+         offset="0"
+         id="stop1746" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1742"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#b23038;stop-opacity:1;"
+         offset="0"
+         id="stop1740" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1725"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#e7eaef;stop-opacity:1;"
+         offset="0"
+         id="stop1723" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1719"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#4d6476;stop-opacity:1;"
+         offset="0"
+         id="stop1717" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1713"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#6b2f24;stop-opacity:1;"
+         offset="0"
+         id="stop1711" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1694"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#604e3e;stop-opacity:1;"
+         offset="0"
+         id="stop1692" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1688"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#c4987a;stop-opacity:1;"
+         offset="0"
+         id="stop1686" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1682"
+       osb:paint="solid"
+       gradientTransform="scale(0.26458333)">
+      <stop
+         style="stop-color:#444348;stop-opacity:1;"
+         offset="0"
+         id="stop1680" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1676"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#727576;stop-opacity:1;"
+         offset="0"
+         id="stop1674" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1670"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#959698;stop-opacity:1;"
+         offset="0"
+         id="stop1668" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1664">
+      <stop
+         style="stop-color:#ebf6fc;stop-opacity:1;"
+         offset="0"
+         id="stop1662" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2839">
       <stop
          style="stop-color:#c4987a;stop-opacity:1;"
          offset="0"
@@ -83,7 +201,6 @@
     </linearGradient>
     <linearGradient
        id="linearGradient908"
-       osb:paint="solid"
        gradientTransform="translate(-101.1173,15.340191)">
       <stop
          style="stop-color:#d3533b;stop-opacity:1;"
@@ -92,7 +209,6 @@
     </linearGradient>
     <linearGradient
        id="linearGradient902"
-       osb:paint="solid"
        gradientTransform="matrix(0.0366697,0,0,0.0366697,-200.12498,249.33154)">
       <stop
          style="stop-color:#afaaa4;stop-opacity:1;"
@@ -101,7 +217,6 @@
     </linearGradient>
     <linearGradient
        id="linearGradient896"
-       osb:paint="solid"
        gradientTransform="matrix(0.26728375,0,0,0.26728375,-452.14909,167.74022)">
       <stop
          style="stop-color:#8ca568;stop-opacity:1;"
@@ -110,7 +225,6 @@
     </linearGradient>
     <linearGradient
        id="linearGradient890"
-       osb:paint="solid"
        gradientTransform="matrix(1.6666666,0,0,1.6666666,382.49711,-97.999992)">
       <stop
          style="stop-color:#5a803a;stop-opacity:1;"
@@ -118,16 +232,14 @@
          id="stop888" />
     </linearGradient>
     <linearGradient
-       id="linearGradient884"
-       osb:paint="solid">
+       id="linearGradient884">
       <stop
          style="stop-color:#739b49;stop-opacity:1;"
          offset="0"
          id="stop882" />
     </linearGradient>
     <linearGradient
-       id="linearGradient878"
-       osb:paint="solid">
+       id="linearGradient878">
       <stop
          style="stop-color:#7e7d7b;stop-opacity:1;"
          offset="0"
@@ -135,7 +247,6 @@
     </linearGradient>
     <linearGradient
        id="linearGradient872"
-       osb:paint="solid"
        gradientTransform="matrix(0.39687505,0,0,0.39687505,-184.69597,-24.269668)">
       <stop
          style="stop-color:#2b2924;stop-opacity:1;"
@@ -143,8 +254,7 @@
          id="stop870" />
     </linearGradient>
     <linearGradient
-       id="linearGradient866"
-       osb:paint="solid">
+       id="linearGradient866">
       <stop
          style="stop-color:#514c44;stop-opacity:1;"
          offset="0"
@@ -169,6 +279,63 @@
          y="-28.034996"
          ry="0" />
     </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1777"
+       id="linearGradient1779"
+       x1="-47.621181"
+       y1="245.97731"
+       x2="-31.180534"
+       y2="245.97731"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="146.99998"
+       x2="-200.00002"
+       y1="146.99998"
+       x1="-250.00002"
+       id="linearGradient908-2">
+      <stop
+         style="stop-color:#d3533b;stop-opacity:1;"
+         offset="0"
+         id="stop906-2" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="196.99998"
+       x2="-150.00002"
+       y1="196.99998"
+       x1="-250.00002"
+       id="linearGradient896-4">
+      <stop
+         style="stop-color:#8ca568;stop-opacity:1;"
+         offset="0"
+         id="stop894-5" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="146.99998"
+       x2="0"
+       y1="146.99998"
+       x1="-150.00002"
+       id="linearGradient872-1">
+      <stop
+         style="stop-color:#2b2924;stop-opacity:1;"
+         offset="0"
+         id="stop870-7" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="-103.00002"
+       x2="0"
+       y1="-103.00002"
+       x1="-250.00002"
+       id="linearGradient890-5">
+      <stop
+         style="stop-color:#5a803a;stop-opacity:1;"
+         offset="0"
+         id="stop888-7" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata834">
@@ -187,7 +354,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Camada 1">
     <rect
-       style="opacity:1;fill:url(#linearGradient896);fill-opacity:1;stroke:none;stroke-width:1.37394524;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient1725);fill-opacity:1;stroke:none;stroke-width:1.37394524;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1409"
        width="210"
        height="297"
@@ -195,136 +362,8 @@
        y="-8.665801e-06"
        ry="0" />
     <g
-       id="g897"
-       transform="matrix(1,0,0,1.0851002,246.81845,-22.456988)"
-       style="fill:#d3533b;fill-opacity:1;stroke:none;stroke-opacity:1" />
-    <g
-       id="g897-2"
-       transform="matrix(-0.8841157,0,0,1.0124203,94.165796,11.679758)"
-       style="fill:#d3533b;fill-opacity:1;stroke:#d3533b;stroke-width:1.91997278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-      <path
-         id="path878-1-0"
-         style="opacity:0.38000039;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.91997278;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 37.777362,0.77612071 65.558612,19.826114 65.535412,265.99333 37.730065,245.76144 Z m 55.516166,0 -27.781216,19.04999329 0.0232,246.167216 27.805326,-20.23189 z"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccccccc" />
-      <path
-         id="path878-1"
-         style="fill:#d3533b;fill-opacity:1;stroke:#d3533b;stroke-width:1.91997278;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 31.697938,-0.43322572 59.479188,18.616769 59.456038,264.78398 31.650692,244.55209 Z m 55.516204,0 -27.78125,19.04999472 0.02315,246.167211 27.805354,-20.23189 z"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccccccc" />
-    </g>
-    <rect
-       style="opacity:1;fill:#2b2924;fill-opacity:1;stroke:none;stroke-width:0.63485205;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1409-9"
-       width="209.99998"
-       height="63.410717"
-       x="0"
-       y="32.61248"
-       ry="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.9361105px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="104.07352"
-       y="59.026184"
-       id="text823"><tspan
-         sodipodi:role="line"
-         id="tspan821"
-         x="104.07352"
-         y="59.026184"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">As Aventuras de</tspan><tspan
-         sodipodi:role="line"
-         x="104.07352"
-         y="87.248405"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         id="tspan825">Aulicha</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.9361105px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="70.60434"
-       y="262.52866"
-       id="text901"><tspan
-         sodipodi:role="line"
-         id="tspan899"
-         x="70.60434"
-         y="262.52866"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Fernando Pujaico Rivera</tspan></text>
-    <g
-       id="g1020"
-       transform="matrix(0.74657045,0,0,0.74657045,0.91260375,-21.827864)"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">
-      <path
-         id="path998"
-         d="m 29.804324,370.1051 h 35.277778 v -28.22223 h -7.055556 v 21.16667 H 36.85988 v -42.33333 h -7.055556 z m 0,0"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path1000"
-         d="M 72.137658,334.82732 H 50.970991 v 21.16666 h -7.055556 v -28.22222 h 35.277778 v 49.38889 h -7.055555 z m 0,0"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g1020-8"
-       transform="matrix(0.74657045,0,0,0.74657045,0.91260375,-58.35751)"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">
-      <path
-         id="path998-9"
-         d="m 29.804324,370.1051 h 35.277778 v -28.22223 h -7.055556 v 21.16667 H 36.85988 v -42.33333 h -7.055556 z m 0,0"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path1000-5"
-         d="M 72.137658,334.82732 H 50.970991 v 21.16666 h -7.055556 v -28.22222 h 35.277778 v 49.38889 h -7.055555 z m 0,0"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g1020-8-0"
-       transform="matrix(0.74657045,0,0,0.74657045,0.88434875,-95.282642)"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">
-      <path
-         id="path998-9-6"
-         d="m 29.804324,370.1051 h 35.277778 v -28.22223 h -7.055556 v 21.16667 H 36.85988 v -42.33333 h -7.055556 z m 0,0"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path1000-5-0"
-         d="M 72.137658,334.82732 H 50.970991 v 21.16666 h -7.055556 v -28.22222 h 35.277778 v 49.38889 h -7.055555 z m 0,0"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.9361105px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="41.784698"
-       y="108.76455"
-       id="text901-8"><tspan
-         sodipodi:role="line"
-         id="tspan899-7"
-         x="41.784698"
-         y="108.76455"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">Crônicas</tspan><tspan
-         sodipodi:role="line"
-         x="41.784698"
-         y="124.63955"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan857">nos</tspan><tspan
-         sodipodi:role="line"
-         x="41.784698"
-         y="140.51454"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan859">Andes</tspan></text>
-    <path
-       style="display:inline;fill:none;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -254.95071,222.65786 -27.52876,-14.16529 -18.27427,-7.06842 -5.57515,-0.94494 -12.90014,-6.0851 -13.0962,-2.20498 -8.75308,-1.9377 -5.47902,1e-5 -4.94449,0.0668 -6.08038,0.13364 -21.9161,6.5481 -22.58428,15.50163 -8.92032,9.97209 z"
-       id="path1162"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccc" />
-    <g
        id="g2740"
-       transform="translate(256.04768,39.421392)">
+       transform="translate(256.04768,25.133883)">
       <path
          inkscape:connector-curvature="0"
          id="path992"
@@ -1098,6 +1137,142 @@
          d="m -88.058928,177.75959 0.801812,8.15171 -6.894968,-1.97211 -7.003046,-8.38458 13.096202,2.20498"
          style="fill:#d0d5d9;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
+    <rect
+       style="opacity:1;fill:url(#linearGradient1765);fill-opacity:1;stroke:none;stroke-width:0.68396848;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1409-9-4"
+       width="209.99998"
+       height="73.602028"
+       x="-2.7755576e-17"
+       y="223.39796"
+       ry="0" />
+    <g
+       id="g897"
+       transform="matrix(1,0,0,1.0851002,246.81845,-22.456988)"
+       style="fill:#d3533b;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <g
+       id="g897-2"
+       transform="matrix(-0.8841157,0,0,1.0124203,94.165796,11.679758)"
+       style="fill:#d3533b;fill-opacity:1;stroke:#d3533b;stroke-width:1.91997278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         id="path878-1-0"
+         style="opacity:0.38000039;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.91997278;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 37.777362,0.77612071 65.558612,19.826114 65.535412,265.99333 37.730065,245.76144 Z m 55.516166,0 -27.781216,19.04999329 0.0232,246.167216 27.805326,-20.23189 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccc" />
+      <path
+         id="path878-1"
+         style="fill:url(#linearGradient1748);fill-opacity:1;stroke:#891c21;stroke-width:1.91997278;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 31.697938,-0.43322572 59.479188,18.616769 59.456038,264.78398 31.650692,244.55209 Z m 55.516204,0 -27.78125,19.04999472 0.02315,246.167211 27.805354,-20.23189 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccc" />
+    </g>
+    <rect
+       style="opacity:1;fill:#2b2924;fill-opacity:1;stroke:none;stroke-width:0.63485205;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1409-9"
+       width="209.99998"
+       height="63.410717"
+       x="0"
+       y="32.61248"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.9361105px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="104.07352"
+       y="59.026184"
+       id="text823"><tspan
+         sodipodi:role="line"
+         id="tspan821"
+         x="104.07352"
+         y="59.026184"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">As Aventuras de</tspan><tspan
+         sodipodi:role="line"
+         x="104.07352"
+         y="87.248405"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan825">Aulicha</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.9361105px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="82.775185"
+       y="262.80258"
+       id="text901"><tspan
+         sodipodi:role="line"
+         id="tspan899"
+         x="82.775185"
+         y="262.80258"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.64166641px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Fernando Pujaico Rivera</tspan></text>
+    <g
+       id="g1020"
+       transform="matrix(0.74657045,0,0,0.74657045,0.91260375,-21.827864)"
+       style="fill:url(#linearGradient1725);fill-opacity:1;stroke:none;stroke-opacity:1">
+      <path
+         id="path998"
+         d="m 29.804324,370.1051 h 35.277778 v -28.22223 h -7.055556 v 21.16667 H 36.85988 v -42.33333 h -7.055556 z m 0,0"
+         style="fill:url(#linearGradient1725);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1000"
+         d="M 72.137658,334.82732 H 50.970991 v 21.16666 h -7.055556 v -28.22222 h 35.277778 v 49.38889 h -7.055555 z m 0,0"
+         style="fill:url(#linearGradient1725);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1020-8"
+       transform="matrix(0.74657045,0,0,0.74657045,0.91260375,-58.35751)"
+       style="fill:url(#linearGradient1725);fill-opacity:1;stroke:none;stroke-opacity:1">
+      <path
+         id="path998-9"
+         d="m 29.804324,370.1051 h 35.277778 v -28.22223 h -7.055556 v 21.16667 H 36.85988 v -42.33333 h -7.055556 z m 0,0"
+         style="fill:url(#linearGradient1725);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1000-5"
+         d="M 72.137658,334.82732 H 50.970991 v 21.16666 h -7.055556 v -28.22222 h 35.277778 v 49.38889 h -7.055555 z m 0,0"
+         style="fill:url(#linearGradient1725);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1020-8-0"
+       transform="matrix(0.74657045,0,0,0.74657045,0.88434875,-95.282642)"
+       style="fill:url(#linearGradient1725);fill-opacity:1;stroke:none;stroke-opacity:1">
+      <path
+         id="path998-9-6"
+         d="m 29.804324,370.1051 h 35.277778 v -28.22223 h -7.055556 v 21.16667 H 36.85988 v -42.33333 h -7.055556 z m 0,0"
+         style="fill:url(#linearGradient1725);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1000-5-0"
+         d="M 72.137658,334.82732 H 50.970991 v 21.16666 h -7.055556 v -28.22222 h 35.277778 v 49.38889 h -7.055555 z m 0,0"
+         style="fill:url(#linearGradient1725);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.9361105px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient1725);fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="41.784698"
+       y="108.76455"
+       id="text901-8"><tspan
+         sodipodi:role="line"
+         id="tspan899-7"
+         x="41.784698"
+         y="108.76455"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:url(#linearGradient1725);stroke-width:0.26458332">Crônicas</tspan><tspan
+         sodipodi:role="line"
+         x="41.784698"
+         y="124.63955"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:url(#linearGradient1725);stroke-width:0.26458332"
+         id="tspan857">nos</tspan><tspan
+         sodipodi:role="line"
+         x="41.784698"
+         y="140.51454"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:url(#linearGradient1725);stroke-width:0.26458332"
+         id="tspan859">Andes</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -254.95071,222.65786 -27.52876,-14.16529 -18.27427,-7.06842 -5.57515,-0.94494 -12.90014,-6.0851 -13.0962,-2.20498 -8.75308,-1.9377 -5.47902,1e-5 -4.94449,0.0668 -6.08038,0.13364 -21.9161,6.5481 -22.58428,15.50163 -8.92032,9.97209 z"
+       id="path1162"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc" />
     <g
        id="g2825"
        transform="matrix(0.74096905,0,0,0.74096905,448.56338,76.319831)">
@@ -1137,5 +1312,12 @@
          id="rect2742-8-1-8"
          style="opacity:0.49000005;fill:url(#linearGradient890);fill-opacity:1;stroke:none;stroke-width:10.00000095;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
+    <rect
+       style="opacity:1;fill:url(#linearGradient1779);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1709"
+       width="16.440647"
+       height="19.842159"
+       x="-47.621181"
+       y="236.05623" />
   </g>
 </svg>
