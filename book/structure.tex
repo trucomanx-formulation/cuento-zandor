@@ -23,7 +23,7 @@
 %----------------------------------------------------------------------------------------
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
-\usepackage[brazil]{babel}
+\usepackage[spanish]{babel}
 %----------------------------------------------------------------------------------------
 
 \usepackage{lipsum} % Inserts dummy text
@@ -86,11 +86,17 @@
 
 \setstocksize{{\imprimirpageheightcm}cm}{{\imprimirpagewidthcm}cm} % Paper size A6
 \settrimmedsize{\stockheight}{\stockwidth}{*} % No trims
-\setlrmarginsandblock{60pt}{60pt}{*} % Left/right margins
-\setulmarginsandblock{60pt}{60pt}{*} % Top/bottom margins
-\setheadfoot{28pt}{36pt} % Header/footer height
-\setheaderspaces{*}{8pt}{*} % Extra header space
-
+\ifdefined \EnableTextRevisionVersion
+    \setlrmarginsandblock{25mm}{25mm}{*} % Left/right margins
+    \setulmarginsandblock{25mm}{25mm}{*} % Top/bottom margins
+    \setheadfoot{28pt}{36pt} % Header/footer height
+    \setheaderspaces{*}{8pt}{*} % Extra header space
+\else
+    \setlrmarginsandblock{60pt}{60pt}{*} % Left/right margins
+    \setulmarginsandblock{60pt}{60pt}{*} % Top/bottom margins
+    \setheadfoot{28pt}{36pt} % Header/footer height
+    \setheaderspaces{*}{8pt}{*} % Extra header space
+\fi
 %----------------------------------------------------------------------------------------
 %	FOOTNOTE CUSTOMIZATION
 %----------------------------------------------------------------------------------------

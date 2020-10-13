@@ -18,10 +18,19 @@
 %----------------------------------------------------------------------------------------
 %	DOCUMENT CONFIGURATIONS AND INFORMATION
 %----------------------------------------------------------------------------------------
+\def \EnableTextRevisionVersion{}
 
-\documentclass[14pt]{memoir} % Font size
-%\documentclass[12pt]{memoir} % Font size A6
+\ifdefined \EnableTextRevisionVersion
+    \documentclass[12pt]{memoir} % Font size A6
+\else
+    \documentclass[14pt]{memoir} % Font size
+\fi
 
+
+\ifx\EnableTextRevisionVersion\undefined
+    % Habilitando imagenes en el libro
+    \def \EnableIncludeImages{}
+\fi
 
 %----------------------------------------------------------------------------------------
 %	GRAYSCALE EM TODAS AS FIGURAS
@@ -56,13 +65,15 @@
 %----------------------------------------------------------------------------------------
 %   Tamanho da folha
 %----------------------------------------------------------------------------------------
-%%\def \imprimirpagewidthcm{10.5}  %% A6 
-%%\def \imprimirpageheightcm{14.8} %% A6
-\def \imprimirpagewidthcm{14.8}  %% A5 
-\def \imprimirpageheightcm{21.0} %% A5
-%% \def \imprimirpagewidthcm{21.0}  %% A4 
-%% \def \imprimirpageheightcm{29.7} %% A4
-
+\ifdefined\EnableTextRevisionVersion
+    \def \imprimirpagewidthcm{21.0}  %% A4 
+    \def \imprimirpageheightcm{29.7} %% A4
+\else
+    %%\def \imprimirpagewidthcm{10.5}  %% A6 
+    %%\def \imprimirpageheightcm{14.8} %% A6
+    \def \imprimirpagewidthcm{14.8}  %% A5 
+    \def \imprimirpageheightcm{21.0} %% A5
+\fi
 
 %----------------------------------------------------------------------------------------
 %   DADOS ficha catalográfica
@@ -72,7 +83,7 @@
 \def \myauthorborn{1982}
 \def \imprimirlocal{Lavras}%cidade obrigatorio
 \def \imprimiryear{2020}
-\newcommand{\imprimirdata}[0]{agosto de \imprimiryear}
+\newcommand{\imprimirdata}[0]{outubro de \imprimiryear}
 \def \imprimirtipotrabalho{Inclui Bibliografia}
 \def \imprimirISNI{\href{http://isni.org/isni/000000049156373X}{0000 0004 9156 373X}}
 \def \imprimirOrcid{\url{https://orcid.org/0000-0002-4970-2818}}
