@@ -36,7 +36,7 @@
     <color-profile
        xlink:href="file:///usr/share/color/icc/SWOP2006_Coated5v2.icc"
        name="SWOP2006_Coated5v2"
-       id="color-profile4" />
+       id="color-profile3" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient895">
@@ -217,13 +217,13 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="false"
      showguides="true"
-     inkscape:zoom="0.29254571"
-     inkscape:cx="-544.4595"
-     inkscape:cy="1022.69"
+     inkscape:zoom="0.41372211"
+     inkscape:cx="-1131.0394"
+     inkscape:cy="718.43853"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      inkscape:guide-bbox="true"
      inkscape:document-rotation="0"
      inkscape:snap-bbox-edge-midpoints="true"
@@ -5030,233 +5030,233 @@
       </g>
     </g>
     <g
-       style="display:inline;shape-rendering:crispEdges"
-       id="g2100"
+       style="shape-rendering:crispEdges"
+       id="g2102"
        transform="matrix(2.5228577,0,0,2.5228577,-204.96026,603.04432)">
       <g
          fill="#000000"
-         id="g1975" />
+         id="g1977" />
       <g
          fill="#ffffff"
-         id="g1979">
+         id="g1981-6">
         <rect
            x="0"
            y="0"
            width="59.796001"
            height="26.458"
-           id="rect1977" />
+           id="rect1979" />
       </g>
       <g
          fill="#000000"
-         id="g1981" />
+         id="g1983" />
       <g
          fill="#000000"
-         id="g2043">
+         id="g2045">
         <rect
            x="5.8207998"
            y="0"
            width="0.52920002"
            height="23.0371"
-           id="rect1983" />
+           id="rect1985-2" />
         <rect
            x="6.8792"
            y="0"
            width="0.52920002"
            height="23.0371"
-           id="rect1985" />
+           id="rect1987-6" />
         <rect
            x="7.9375"
            y="0"
            width="1.5875"
            height="20.186399"
-           id="rect1987" />
+           id="rect1989-1" />
         <rect
            x="10.0542"
            y="0"
            width="1.0583"
            height="20.186399"
-           id="rect1989" />
+           id="rect1991-8" />
         <rect
            x="12.7"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect1991" />
+           id="rect1993-7" />
         <rect
            x="14.2875"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect1993" />
+           id="rect1995-9" />
         <rect
            x="16.933399"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect1995" />
+           id="rect1997-2" />
         <rect
            x="17.991699"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect1997" />
+           id="rect1999-0" />
         <rect
            x="19.0501"
            y="0"
            width="1.0583"
            height="20.186399"
-           id="rect1999" />
+           id="rect2001-2" />
         <rect
            x="21.6959"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2001" />
+           id="rect2003-3" />
         <rect
            x="22.7542"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2003" />
+           id="rect2005-7" />
         <rect
            x="24.3417"
            y="0"
            width="1.5875"
            height="20.186399"
-           id="rect2005" />
+           id="rect2007-5" />
         <rect
            x="27.516701"
            y="0"
            width="1.0583"
            height="20.186399"
-           id="rect2007" />
+           id="rect2009-9" />
         <rect
            x="29.1042"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2009" />
+           id="rect2011-2" />
         <rect
            x="30.1626"
            y="0"
            width="0.52920002"
            height="23.0371"
-           id="rect2011" />
+           id="rect2013-2" />
         <rect
            x="31.2209"
            y="0"
            width="0.52920002"
            height="23.0371"
-           id="rect2013" />
+           id="rect2015-8" />
         <rect
            x="32.279301"
            y="0"
            width="1.0583"
            height="20.186399"
-           id="rect2015" />
+           id="rect2017-9" />
         <rect
            x="34.395901"
            y="0"
            width="1.0583"
            height="20.186399"
-           id="rect2017" />
+           id="rect2019-7" />
         <rect
            x="35.983398"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2019" />
+           id="rect2021-3" />
         <rect
            x="38.629299"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2021" />
+           id="rect2023-6" />
         <rect
            x="39.687599"
            y="0"
            width="1.0583"
            height="20.186399"
-           id="rect2023" />
+           id="rect2025-1" />
         <rect
-           x="41.804298"
+           x="41.275101"
            y="0"
            width="1.0583"
            height="20.186399"
-           id="rect2025" />
+           id="rect2027-2" />
         <rect
            x="43.3918"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2027" />
+           id="rect2029-9" />
         <rect
            x="45.508499"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2029" />
+           id="rect2031-3" />
         <rect
            x="47.096001"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2031" />
+           id="rect2033-1" />
         <rect
            x="48.683498"
            y="0"
            width="1.5875"
            height="20.186399"
-           id="rect2033" />
+           id="rect2035-9" />
         <rect
            x="50.800098"
            y="0"
            width="0.52920002"
            height="20.186399"
-           id="rect2035" />
+           id="rect2037-4" />
         <rect
            x="52.3876"
            y="0"
-           width="0.52920002"
+           width="1.5875"
            height="20.186399"
-           id="rect2037" />
+           id="rect2039-7" />
         <rect
            x="54.504299"
            y="0"
            width="0.52920002"
            height="23.0371"
-           id="rect2039" />
+           id="rect2041-8" />
         <rect
            x="55.562698"
            y="0"
            width="0.52920002"
            height="23.0371"
-           id="rect2041" />
+           id="rect2043" />
       </g>
       <g
          fill="#000000"
-         id="g2051">
+         id="g2053">
         <text
            x="2.9103999"
            y="25.282101"
            text-anchor="middle"
            font-family="Arial"
            font-size="5.6444px"
-           id="text2045">9</text>
+           id="text2047-4">9</text>
         <text
            x="18.7855"
            y="25.282101"
            text-anchor="middle"
            font-family="Arial"
            font-size="5.6444px"
-           id="text2047">786500</text>
+           id="text2049-5">786500</text>
         <text
            x="43.127201"
            y="25.282101"
            text-anchor="middle"
            font-family="Arial"
            font-size="5.6444px"
-           id="text2049">131758</text>
+           id="text2051">132755</text>
       </g>
     </g>
   </g>
