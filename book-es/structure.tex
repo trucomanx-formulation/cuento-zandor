@@ -101,10 +101,15 @@
 %	FOOTNOTE CUSTOMIZATION
 %----------------------------------------------------------------------------------------
 
-\renewcommand{\foottextfont}{\itshape\footnotesize} % Font settings for footnotes
+\renewcommand{\foottextfont}{\footnotesize}%{\itshape\footnotesize} % Font settings for footnotes
 \setlength{\footmarkwidth}{-.1em} % Space between the footnote number and the text
 \setlength{\footmarksep}{.1em} % Space between multiple footnotes on the same page
-\renewcommand*{\footnoterule}{} % Remove the rule above the first footnote
+%\renewcommand*{\footnoterule}{} % Remove the rule above the first footnote
+\renewcommand{\footnoterule}{%
+  \kern -3pt
+  \hrule width \textwidth height 1pt
+  \kern 2pt
+}
 \setlength{\skip\footins}{1\onelineskip} % Space between the body text and the footnote
 
 %----------------------------------------------------------------------------------------
